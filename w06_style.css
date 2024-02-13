@@ -14,9 +14,10 @@ Font-weight: bold;
 Font-family: "Times;
 }
 
-Ul { 
-fontSize: 1.5pm; 
+ul { 
+fontSize: 1.5px; 
 Font-family: "Times;
+Font-weight: bold; 
 }
 
 h2 {
@@ -25,20 +26,13 @@ border: solid black;
 Font-family: "Times;
 }
 
-P {
+p {
 Size: 14px;
 Font-family: "Times;
 }
 
-A {
+a {
 Color: purple;
-}
-
-H2 {
-Text-align: center;
-border: solid grey;
-Font-weight: bold; 
-Font-family: "Times;
 }
 
 Img {
