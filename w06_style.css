@@ -1,1 +1,47 @@
 
+Html {
+  color: #F5F5DC;
+}
+
+body {
+background-color: #BDB76B;
+}
+
+h1 {
+Text-align: center;
+border: solid grey;
+Font-weight: bold; 
+Font-family: "Times;
+}
+
+Ul { 
+fontSize: 1.5pm; 
+Font-family: "Times;
+}
+
+h2 {
+Text-align: center;
+border: solid black;
+Font-family: "Times;
+}
+
+P {
+Size: 14px;
+Font-family: "Times;
+}
+
+A {
+Color: purple;
+}
+
+H2 {
+Text-align: center;
+border: solid grey;
+Font-weight: bold; 
+Font-family: "Times;
+}
+
+Img {
+Width: 200px;
+height: 400px;
+}
