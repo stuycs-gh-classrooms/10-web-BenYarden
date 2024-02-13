@@ -20,6 +20,12 @@ Font-family: "Times;
 Font-weight: bold; 
 }
 
+li { 
+fontSize: 1.5px; 
+Font-family: "Times;
+Font-weight: bold; 
+}
+
 h2 {
 Text-align: center;
 border: solid black;
