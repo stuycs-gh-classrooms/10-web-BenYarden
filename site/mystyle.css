@@ -4,3 +4,7 @@ body {
   width: 400px;
   background-position: center;
 }
+
+nav {
+  background-color: #5F9EA0;
+}
