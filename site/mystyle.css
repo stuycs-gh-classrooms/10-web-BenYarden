@@ -1,4 +1,6 @@
 body {
   margin: auto;
   background-color: gray;
+  width: 400px;
+  background-position: center;
 }
