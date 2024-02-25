@@ -15,7 +15,7 @@ nav {
 
 Ul {
    display: flex;
-
+list-style: none;
 }
 
 li {
