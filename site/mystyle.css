@@ -12,3 +12,8 @@ body {
 nav {
   background-color: #A9A9A9;
 }
+
+img {
+  margin: auto;
+  float: center;
+}
