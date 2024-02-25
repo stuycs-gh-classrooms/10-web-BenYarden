@@ -42,6 +42,10 @@ a:hover {
   color: #F8F8FF;
 }
 
+a:current {
+  color: #F8F8FF;
+}
+
 img {
   length: 200px;
   width: 200px;
