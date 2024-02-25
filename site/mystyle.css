@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  margin: auto;
+  bottom-margin: 30px;
   background-color: #F0FFFF;
   width: 600px;
   background-position: center;
