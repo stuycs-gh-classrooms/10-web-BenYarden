@@ -4,7 +4,6 @@ html {
 
 body {
   margin: auto;
-  margin-bottom: 20px;
   background-color: #F0FFFF;
   width: 600px;
   background-position: center;
@@ -52,4 +51,5 @@ img {
 
 p {
   margin: 30px;
+  margin-bottom: 20px;
 }
