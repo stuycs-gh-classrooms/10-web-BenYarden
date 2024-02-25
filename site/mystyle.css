@@ -39,8 +39,8 @@ li {
 
 }
 
-a.current{
-  background-color: #DEB887;
+li a.current{
+  background: #DEB887;
 }
   
 a:hover {
