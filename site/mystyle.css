@@ -38,14 +38,14 @@ li {
   padding: .5em;
 
 }
+a:current {
+  color: #0000FF;
+}
 
 a:hover {
   color: #F8F8FF;
 }
 
-a:current {
-  color: #0000FF;
-}
 
 img {
   length: 200px;
