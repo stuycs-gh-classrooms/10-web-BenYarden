@@ -31,10 +31,13 @@ li {
 }
 
 a:link { 
+  display: block;
   text-decoration: none; 
   text-align: center
+  
 } 
 a:visited { 
+  display: block;
   text-decoration: none;
   text-align: center
 } 
@@ -44,6 +47,7 @@ a.current{
 }
   
 a:hover {
+  display: block;
   color: #000000;
   text-decoration: none
   text-align: center
