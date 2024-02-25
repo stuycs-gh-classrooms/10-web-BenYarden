@@ -2,11 +2,6 @@ html {
   background-color: #5F9EA0;
 }
 
-h2 {
-  text-align: center;
-}
-
-
 body {
   margin: auto;
   background-color: #F0FFFF;
@@ -20,14 +15,13 @@ nav {
 }
 
 Ul {
-     display: flex;
-list-style: none;
+  display: flex;
+  list-style: none;
 }
 
 li {
   border: 2px #DCDCDC;
   padding: .5em;
-
 }
 
 a {
@@ -35,7 +29,6 @@ a {
   text-decoration: none; 
   text-align: center
 }
-
 
 a.current{
   background: #5F9EA0;
@@ -45,6 +38,9 @@ a:hover {
   color: #000000;
 }
 
+h2 {
+  text-align: center;
+}
 
 img {
   length: 200px;
