@@ -30,4 +30,5 @@ a:hover {
 img {
   length: 200px;
   width: 200px;
+   display: block;
 }
