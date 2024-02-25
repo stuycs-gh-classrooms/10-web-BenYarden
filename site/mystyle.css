@@ -30,17 +30,14 @@ li {
 
 }
 
-a:link { 
+a {
   display: block;
   text-decoration: none; 
   text-align: center
-  
-} 
-a:visited { 
-  display: block;
-  text-decoration: none;
-  text-align: center
-} 
+}
+
+
+
 
 a.current{
   background: #5F9EA0;
