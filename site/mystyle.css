@@ -28,6 +28,10 @@ Ul {
 list-style: none;
 }
 
+.active {
+  color: #DEB887;
+}
+
 li {
   border: 2px #DCDCDC;
   padding: .5em;
