@@ -34,3 +34,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+p {
+  border-radius: 5px;
+}
