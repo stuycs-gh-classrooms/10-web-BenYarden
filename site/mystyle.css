@@ -43,7 +43,7 @@ a:hover {
   color: #F8F8FF;
 }
 
-a:active {
+a:current {
   color: #0000FF;
 }
 
