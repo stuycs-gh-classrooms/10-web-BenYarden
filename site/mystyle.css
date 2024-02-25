@@ -37,17 +37,12 @@ a {
 }
 
 
-
-
 a.current{
   background: #5F9EA0;
 }
   
 a:hover {
-  display: block;
   color: #000000;
-  text-decoration: none
-  text-align: center
 }
 
 
