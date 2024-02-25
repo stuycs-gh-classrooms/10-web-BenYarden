@@ -39,7 +39,7 @@ li {
 
 }
 
-li a.current{
+a.current{
   background-color: #DEB887;
 }
   
