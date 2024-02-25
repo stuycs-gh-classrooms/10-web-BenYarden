@@ -7,6 +7,7 @@ body {
   background-color: #F0FFFF;
   width: 600px;
   background-position: center;
+  bottom-padding: 20px;
 }
 
 nav {
