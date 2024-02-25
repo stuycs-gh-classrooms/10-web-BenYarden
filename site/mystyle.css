@@ -21,12 +21,11 @@ body {
 
 nav {
   background-color: #A9A9A9;
-     display: flex;
-list-style: none;
 }
 
 Ul {
-
+     display: flex;
+list-style: none;
 }
 
 .active {
