@@ -24,10 +24,6 @@ Ul {
 list-style: none;
 }
 
-.active {
-  color: #DEB887;
-}
-
 li {
   border: 2px #DCDCDC;
   padding: .5em;
@@ -36,9 +32,11 @@ li {
 
 a:link { 
   text-decoration: none; 
+  text-align: center
 } 
 a:visited { 
-  text-decoration: none; 
+  text-decoration: none;
+  text-align: center
 } 
 
 a.current{
@@ -48,6 +46,7 @@ a.current{
 a:hover {
   color: #000000;
   text-decoration: none
+  text-align: center
 }
 
 
