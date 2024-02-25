@@ -6,11 +6,6 @@ h2 {
   text-align: center;
 }
 
-a {
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 body {
   margin: auto;
@@ -39,7 +34,7 @@ li {
 
 }
 
-li a.current{
+a.current{
   background: #DEB887;
 }
   
