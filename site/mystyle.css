@@ -38,10 +38,11 @@ li {
   padding: .5em;
 
 }
-a:current {
-  color: #0000FF;
-}
 
+li a.current{
+  background-color: #DEB887;
+}
+  
 a:hover {
   color: #F8F8FF;
 }
