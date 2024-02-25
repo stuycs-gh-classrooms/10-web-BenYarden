@@ -10,10 +10,13 @@ body {
 }
 
 nav {
-  display: flex;
   background-color: #A9A9A9;
 }
 
+Ul {
+   display: flex;
+
+}
 
 li {
   border: 2px #DCDCDC;
