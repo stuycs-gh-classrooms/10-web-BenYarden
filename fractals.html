@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Fractals</title>
+    <link href="fractals.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <h2> Ben's fractals </h2>
+<hr>
+  <h3> Koch curve </h3>
+<img src="imgs/base_koch.png"> </img>
+    <p> I modified this with a change in the angle of the curve. rather than forming the curve with two 60 degree angles, it uses 80 degrees instead. This creates the effect of making it seem sharper and more compact. I also added the colors red, gray, and blue to each recursion case since the design reminded me of July 4th fireworks. </p>
+<img src="imgs/edited_koch.png"> </img>
+<pre><code> 
+def new_koch(t, depth, length):
+    t.speed("fastest")
+    t.pd()
+    if depth == 1:
+        t.fd(length)
+    if depth > 1:
+        new_koch(t, depth - 1, length)
+        t.color("red")
+        t.lt(80)
+        new_koch(t, depth - 1, length)
+        t.color("gray")
+        t.rt(160)
+        new_koch(t, depth - 1, length)
+        t.color("blue")
+        t.lt(80)
+        new_koch(t, depth - 1, length)        
+    t.pu()
+</code></pre>
+<hr>
+<h3> Tree </h3>
+<img src="imgs/base_tree.png"> </img>
+    <p> I modified this with a few things to make it seem more like a tree. First, it switches to color green at depth 1 to make the final lines appear as leaves, while the rest is set as brown to look like a trunk and branches. I also set the length of the branches to 10 and the rest of the tree to a random number such that it looks more natural. Finally, the pensize becomes larger as the depth grows such that the trunk appears larger than the branches and leaves. </p>
+<img src="imgs/edited_tree.png"> </img>
+<pre><code> 
+def tree_new(t, depth, length, angle):
+    t.pd()
+    t.speed("fastest")
+    if depth == 1:
+        length = depth * 10
+        t.pensize(3)
+        t.color('green')
+        t.fd(length)
+        t.backward(length)
+        t.color('brown')
+    else:
+        length = depth * 10 + random.randrange(40)
+        t.color('brown')
+        t.pensize(depth * 2)
+        t.fd(length)
+        t.rt(angle)
+        tree_new(t, depth - 1, length, angle)
+        t.lt(angle * 2)
+        tree_new(t, depth - 1, length, angle)
+        t.rt(angle)
+        t.backward(length)
+</code></pre>
+<hr>
+<h3> Sierpinski </h3>
+<img src="imgs/base_sier.png"> </img>
+    <p> I modified the smallest triangles by filling the base case with a random one of the 7 colors of the rainbow. I then used pen up so that only the filled triangle are visible, which I thought looked cooler. </p>
+  </body>
+<img src="imgs/edited_sier.png"> </img>
+<pre><code> 
+def draw_sierpinski_new(t, depth, length):
+    t.speed("fastest")
+    t.pu()
+    if depth == 1:
+        t.fillcolor(colors[random.randrange(7)])
+        t.begin_fill()
+        t.lt(60)
+        t.fd(length)
+        t.rt(120)
+        t.fd(length)
+        t.rt(120)
+        t.fd(length)
+        t.rt(180)
+        t.end_fill()
+    else:
+        draw_sierpinski_new(t, depth - 1, length/2)
+        t.fd(length / 2)
+        draw_sierpinski_new(t, depth - 1, length/2)
+        t.lt(120)
+        t.fd(length / 2)
+        t.rt(120)
+        draw_sierpinski_new(t, depth - 1, length/2)
+        t.rt(120)
+        t.fd(length / 2)
+        t.lt(120)
+</code></pre>
+
+</html>

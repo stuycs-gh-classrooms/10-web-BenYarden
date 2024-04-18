@@ -1,0 +1,43 @@
+html {
+  background-color:  #AAAAAA;
+}
+
+body {
+  margin: auto;
+  background-color: #E5F5F5;
+  width: 600px;
+  background-position: center;
+  padding-bottom: 25px;
+  padding-top: 5px;
+}
+
+code {
+  display: block;
+  text-decoration: none; 
+  margin: 30px;
+}
+
+a {
+  display: block;
+  text-decoration: none; 
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+img {
+  length: 400px;
+  width: 400px;
+  display: block;
+  margin: auto;
+}
+
+p {
+  margin: 30px;
+}
